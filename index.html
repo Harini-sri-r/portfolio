@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harini sri R | AI Engineer Portfolio</title>
+  <meta name="description" content="Portfolio of Harini Sri R, aspiring AI engineer focused on Python, machine learning, NLP, and web development projects.">
+  <meta name="keywords" content="Harini Sri R, AI, Data Science, Portfolio, Python, Machine Learning, Web Developer, SQL, Flask">
+  <meta name="author" content="Harini Sri R">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="loader" class="loader">
+    <div class="loader-inner">
+      <div class="spinner"></div>
+      <p>Preparing the portfolio...</p>
+    </div>
+  </div>
+
+  <div class="progress-wrap">
+    <div id="progressBar" class="progress-bar"></div>
+  </div>
+
+  <header class="site-header">
+    <a href="#home" class="brand">Harini Sri R</a>
+    <div class="nav-wrap">
+      <nav class="nav-links" id="navLinks">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#profiles" class="nav-link">Profiles</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+    <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero-section" id="home">
+      <div class="hero-overlay"></div>
+      <canvas id="particleCanvas"></canvas>
+      <div class="hero-container">
+        <div class="hero-copy">
+          <span class="eyebrow">Aspiring AI Engineer</span>
+          <h1>Hi, I'm <span>Harini Sri R</span></h1>
+          <p class="typed-text"><span id="typedText"></span><span class="cursor">|</span></p>
+          <p class="hero-description">I am an aspiring AI engineer who loves building practical AI, data science, and web applications. I enjoy learning new technologies, solving problems with code, and turning ideas into useful project experiences.</p>
+          <div class="hero-highlights">
+            <div class="highlight-item">
+              <i class="fa-solid fa-brain"></i>
+              <span>AI Engineering Focus</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fa-solid fa-code"></i>
+              <span>Web Project Builder</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fa-solid fa-chart-line"></i>
+              <span>Data Analysis Foundation</span>
+            </div>
+          </div>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#profiles" class="btn btn-secondary"><i class="fa-solid fa-code"></i> Coding Profiles</a>
+            <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+          </div>
+          <div class="hero-socials">
+            <a href="mailto:harinibrindhasri@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://leetcode.com/u/harinibrindhasri/" target="_blank" rel="noopener noreferrer" aria-label="LeetCode"><i class="fa-solid fa-code"></i></a>
+            <a href="https://www.geeksforgeeks.org/profile/harinibri8vf2?tab=activity" target="_blank" rel="noopener noreferrer" aria-label="GeeksforGeeks"><i class="fa-solid fa-graduation-cap"></i></a>
+            <a href="https://www.hackerrank.com/profile/harinibrindhasri" target="_blank" rel="noopener noreferrer" aria-label="HackerRank"><i class="fa-brands fa-hackerrank"></i></a>
+            <a href="https://github.com/Harini-sri-r" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        <div class="hero-card glass-card profile-card-display">
+          <span class="profile-photo-frame">
+            <img src="profile.jpeg" alt="Harini Sri R" class="profile-image">
+          </span>
+          <div class="profile-details">
+            <h2>Harini Sri R</h2>
+            <p>Aspiring AI engineer who loves working on Python, machine learning, NLP, and web development projects.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-header">
+        <h2>About Me</h2>
+        <p>Aspiring AI engineer building a strong foundation through practical AI and web projects.</p>
+      </div>
+      <div class="about-grid">
+        <div class="glass-card about-card">
+          <h3>Career Objective</h3>
+          <p>As an aspiring AI engineer, I love working on projects that connect data, models, and user-friendly web interfaces. My focus is on building clean, understandable applications using Python, machine learning, NLP, and web technologies while improving my problem-solving and software development skills.</p>
+          <div class="about-highlights">
+            <div><i class="fa-solid fa-check-circle"></i><span>Hands-on Python, ML, and NLP practice</span></div>
+            <div><i class="fa-solid fa-check-circle"></i><span>Comfortable building web-based project demos</span></div>
+            <div><i class="fa-solid fa-check-circle"></i><span>Interested in data-driven problem solving</span></div>
+            <div><i class="fa-solid fa-check-circle"></i><span>Open to internships, fresher roles, and AI engineering opportunities</span></div>
+          </div>
+        </div>
+        <div class="glass-card achievements-preview">
+          <h3>Key Strengths</h3>
+          <div class="strength-item">
+            <div class="strength-icon"><i class="fa-solid fa-lightbulb"></i></div>
+            <div>
+              <h4>Applied AI Projects</h4>
+              <p>Built academic projects using ML, NLP, and LLM concepts.</p>
+            </div>
+          </div>
+          <div class="strength-item">
+            <div class="strength-icon"><i class="fa-solid fa-rocket"></i></div>
+            <div>
+              <h4>Web Development</h4>
+              <p>Created responsive project interfaces with HTML, CSS, JavaScript, and Flask.</p>
+            </div>
+          </div>
+          <div class="strength-item">
+            <div class="strength-icon"><i class="fa-solid fa-database"></i></div>
+            <div>
+              <h4>Learning Mindset</h4>
+              <p>Consistently practicing coding, debugging, documentation, and presentation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-header">
+        <h2>Skills</h2>
+        <p>Technical skills I use while building AI, data, and web development projects.</p>
+      </div>
+      <div class="skill-grid">
+        <div class="skill-card glass-card">
+          <h3>Programming</h3>
+          <div class="skill-tags">
+            <button type="button" class="skill-pill" data-title="Python" data-detail="Used for machine learning workflows, data preprocessing, NLP experiments, and backend logic." data-level="Strong basics">Python</button>
+            <button type="button" class="skill-pill" data-title="Java" data-detail="Practicing object-oriented programming, problem solving, and core programming fundamentals." data-level="Core foundation">Java</button>
+            <button type="button" class="skill-pill" data-title="JavaScript" data-detail="Used for interactive portfolio features, frontend behavior, and web project interfaces." data-level="Project practice">JavaScript</button>
+            <button type="button" class="skill-pill" data-title="HTML" data-detail="Building structured, accessible pages for portfolio and project demos." data-level="Comfortable">HTML</button>
+            <button type="button" class="skill-pill" data-title="CSS" data-detail="Creating responsive layouts, cards, grids, and polished portfolio styling." data-level="Comfortable">CSS</button>
+            <button type="button" class="skill-pill" data-title="SQL" data-detail="Practicing database queries, filtering, joins, and data handling basics." data-level="Core foundation">SQL</button>
+          </div>
+        </div>
+        <div class="skill-card glass-card">
+          <h3>AI & Data</h3>
+          <div class="skill-tags">
+            <button type="button" class="skill-pill" data-title="Machine Learning" data-detail="Training and evaluating models for classification, prediction, and academic AI projects." data-level="Project practice">Machine Learning</button>
+            <button type="button" class="skill-pill" data-title="NLP" data-detail="Working with text preprocessing, comment classification, chatbot flows, and language-based tasks." data-level="Project practice">NLP</button>
+            <button type="button" class="skill-pill" data-title="Data Analysis" data-detail="Exploring datasets, finding patterns, and preparing useful insights for model building." data-level="Core foundation">Data Analysis</button>
+            <button type="button" class="skill-pill" data-title="Data Preprocessing" data-detail="Cleaning, transforming, and preparing data before training or analysis." data-level="Project practice">Data Preprocessing</button>
+            <button type="button" class="skill-pill" data-title="LLM Basics" data-detail="Learning retrieval, prompts, semantic search, and research-assistant project ideas." data-level="Learning now">LLM Basics</button>
+          </div>
+        </div>
+        <div class="skill-card glass-card">
+          <h3>Web & Tools</h3>
+          <div class="skill-tags">
+            <button type="button" class="skill-pill" data-title="Flask" data-detail="Building simple Python web apps and connecting models with usable interfaces." data-level="Project practice">Flask</button>
+            <button type="button" class="skill-pill" data-title="FastAPI" data-detail="Exploring API development for AI and research-assistant style applications." data-level="Learning now">FastAPI</button>
+            <button type="button" class="skill-pill" data-title="MySQL" data-detail="Practicing database storage, queries, and structured data management." data-level="Core foundation">MySQL</button>
+            <button type="button" class="skill-pill" data-title="Git" data-detail="Tracking code changes and improving project workflow." data-level="Core foundation">Git</button>
+            <button type="button" class="skill-pill" data-title="GitHub" data-detail="Maintaining project repositories and sharing development work." data-level="Project practice">GitHub</button>
+            <button type="button" class="skill-pill" data-title="VS Code" data-detail="Main editor for coding, debugging, and organizing portfolio/project files." data-level="Daily tool">VS Code</button>
+          </div>
+        </div>
+      </div>
+      <div class="skill-feature glass-card" id="skillFeature" aria-live="polite">
+        <div>
+          <p class="skill-feature-label">Skill Focus</p>
+          <h3 id="skillFeatureTitle">Choose a skill</h3>
+          <p id="skillFeatureText">Hover or tap any skill above to see how I use it in my projects.</p>
+        </div>
+        <div class="skill-feature-meta">
+          <span id="skillFeatureLevel">Ready to explore</span>
+          <div class="skill-meter"><span id="skillMeterFill"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="profiles">
+      <div class="section-header">
+        <h2>Coding Profiles</h2>
+        <p>My coding and developer profiles are here for problem-solving practice and project work.</p>
+      </div>
+      <div class="profile-grid">
+        <a href="https://leetcode.com/u/harinibrindhasri/" target="_blank" rel="noopener noreferrer" class="profile-card glass-card">
+          <i class="fa-solid fa-code"></i>
+          <div>
+            <h3>LeetCode</h3>
+            <p>Practicing coding problems and algorithms.</p>
+          </div>
+          <span class="profile-visit">Visit my profile <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+        </a>
+        <a href="https://www.geeksforgeeks.org/profile/harinibri8vf2" target="_blank" rel="noopener noreferrer" class="profile-card glass-card">
+          <i class="fa-solid fa-book"></i>
+          <div>
+            <h3>GeeksforGeeks</h3>
+            <p>Learning data structures, coding, and interview basics.</p>
+          </div>
+          <span class="profile-visit">Visit my profile <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+        </a>
+        <a href="https://www.hackerrank.com/profile/harinibrindhasri" target="_blank" rel="noopener noreferrer" class="profile-card glass-card">
+          <i class="fa-brands fa-hackerrank"></i>
+          <div>
+            <h3>HackerRank</h3>
+            <p>Practicing programming, SQL, and problem-solving skills.</p>
+          </div>
+          <span class="profile-visit">Visit my profile <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+        </a>
+        <a href="https://github.com/Harini-sri-r" target="_blank" rel="noopener noreferrer" class="profile-card glass-card">
+          <i class="fa-brands fa-github"></i>
+          <div>
+            <h3>GitHub</h3>
+            <p>Sharing code, project repositories, and development practice.</p>
+          </div>
+          <span class="profile-visit">Visit my profile <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-header">
+        <h2>Projects</h2>
+        <p>Academic and final-year projects that show my current AI, data science, and web development practice.</p>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card glass-card">
+          <div class="project-body">
+            <h3>Toxic Comment Detection System</h3>
+            <p>NLP-based web application that classifies user comments as toxic or safe. I worked with text preprocessing, model training, and a Flask-based interface for easy testing.</p>
+            <div class="project-tags"><span>Python</span><span>ML</span><span>NLP</span><span>Flask</span><span>JavaScript</span></div>
+            <a href="https://github.com/Harini-sri-r/ShieldAI-AI-Powered-Toxic-Content-Detection-Protection-System" target="_blank" rel="noopener noreferrer" class="project-link">
+              <i class="fa-brands fa-github"></i> View GitHub Repository
+            </a>
+          </div>
+        </article>
+        <article class="project-card glass-card">
+          <div class="project-body">
+            <h3>ResearchGPT</h3>
+            <p>Research assistant concept that helps users search and understand documents using LLM, RAG, and semantic search ideas. The project strengthened my understanding of retrieval-based AI systems.</p>
+            <div class="project-tags"><span>Python</span><span>FastAPI</span><span>LLM</span><span>RAG</span><span>Semantic Search</span></div>
+            <a href="https://github.com/Harini-sri-r/ResearchGPT-AI-Research-Assistant" target="_blank" rel="noopener noreferrer" class="project-link">
+              <i class="fa-brands fa-github"></i> View GitHub Repository
+            </a>
+          </div>
+        </article>
+        <article class="project-card glass-card">
+          <div class="project-body">
+            <h3>Mental Health Chatbot</h3>
+            <p>Chatbot prototype designed for supportive conversations and basic wellness guidance. It helped me practice conversational flow, NLP concepts, and simple web integration.</p>
+            <div class="project-tags"><span>Python</span><span>Flask</span><span>NLP</span><span>JavaScript</span></div>
+            <a href="https://github.com/Harini-sri-r/mental-health-chatbot" target="_blank" rel="noopener noreferrer" class="project-link">
+              <i class="fa-brands fa-github"></i> View GitHub Repository
+            </a>
+          </div>
+        </article>
+        <article class="project-card glass-card">
+          <div class="project-body">
+            <h3>Autism Support Platform</h3>
+            <p>Student project exploring accessible digital support through learning resources, communication assistance ideas, and a responsive user interface.</p>
+            <div class="project-tags"><span>Python</span><span>JavaScript</span><span>AI</span><span>ML</span><span>Responsive</span></div>
+            <a href="https://github.com/Harini-sri-r/Integrated-Assistive-Platform-for-Autism-Support-and-Learning" target="_blank" rel="noopener noreferrer" class="project-link">
+              <i class="fa-brands fa-github"></i> View GitHub Repository
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="section-header">
+        <h2>Education</h2>
+        <p>Academic background focused on AI, data science, and computational intelligence.</p>
+      </div>
+      <div class="education-card glass-card">
+        <div>
+          <h3>B.Tech in Artificial Intelligence and Data Science</h3>
+          <p>Dr. N.G.P. Institute of Technology</p>
+          <p>Final year undergraduate learning machine learning, data science, programming, and web development through coursework and hands-on projects.</p>
+        </div>
+        <div class="education-meta">
+          <span>CGPA: 8.43</span>
+          <span>Graduation: 2027</span>
+          <span>Status: Final Year</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="achievements">
+      <div class="section-header">
+        <h2>Achievements</h2>
+      </div>
+      <div class="achievements-grid">
+        <div class="achievement-card glass-card">
+          <h3>AI Project Practice</h3>
+          <p>Working on AI-based projects that combine research, implementation, and presentation.</p>
+        </div>
+        <div class="achievement-card glass-card">
+          <h3>Applied Learning</h3>
+          <p>Built projects in toxic comment detection, research assistance, chatbots, and accessibility.</p>
+        </div>
+        <div class="achievement-card glass-card">
+          <h3>Coding Practice</h3>
+          <p>Improving problem-solving skills through coding platforms and regular practice.</p>
+        </div>
+        <div class="achievement-card glass-card">
+          <h3>LeetCode Profile Practice</h3>
+          <p>Actively practicing coding problems to strengthen data structures, algorithms, and interview preparation.</p>
+          <a href="https://leetcode.com/u/harinibrindhasri/" target="_blank" rel="noopener noreferrer" class="achievement-link">
+            <i class="fa-solid fa-code"></i> Visit LeetCode Profile
+          </a>
+        </div>
+        <div class="achievement-card glass-card">
+          <h3>GitHub Project Portfolio</h3>
+          <p>Maintaining AI and web development projects with organized repositories and practical implementation work.</p>
+        </div>
+        <div class="achievement-card glass-card">
+          <h3>Placement Preparation</h3>
+          <p>Focused on strengthening fundamentals in Python, SQL, ML, and web development.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="section-header">
+        <h2>Contact</h2>
+        <p>Open to internships, fresher roles, AI engineering work, and project collaboration.</p>
+      </div>
+      <div class="contact-grid">
+        <a href="mailto:harinibrindhasri@gmail.com" class="contact-card glass-card">
+          <i class="fa-solid fa-envelope"></i>
+          <div>
+            <h3>Email</h3>
+            <p>Send Email</p>
+          </div>
+        </a>
+        <a href="https://www.linkedin.com/in/harini-sri-r-212b70294/" target="_blank" rel="noopener noreferrer" class="contact-card glass-card">
+          <i class="fa-brands fa-linkedin"></i>
+          <div>
+            <h3>LinkedIn</h3>
+            <p>Open LinkedIn Profile</p>
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top"><i class="fa-solid fa-chevron-up"></i></button>
+
+  <footer class="site-footer">
+    <p>Aspiring AI engineer who loves learning, building, and improving through practical projects.</p>
+  </footer>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>

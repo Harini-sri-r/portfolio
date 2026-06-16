@@ -364,24 +364,22 @@ h4 {
   box-shadow: 0 26px 76px rgba(0, 0, 0, 0.3);
 }
 
-.profile-photo-frame {
-  display: grid;
-  place-items: center;
-  width: 206px;
-  height: 206px;
-  border-radius: 50%;
+.profile-art-frame {
+  width: min(100%, 430px);
+  aspect-ratio: 4 / 3;
+  padding: 7px;
+  border-radius: 28px;
   background: linear-gradient(135deg, rgba(45, 212, 191, 0.88), rgba(245, 158, 11, 0.9));
   box-shadow: 0 20px 42px rgba(0, 0, 0, 0.26);
 }
 
-.profile-image {
-  width: 190px;
-  height: 190px;
-  border-radius: 50%;
+.profile-art-image {
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(8, 11, 16, 0.9);
+  border-radius: 22px;
   object-fit: cover;
-  object-position: center 28%;
-  border: 5px solid rgba(8, 11, 16, 0.9);
-  margin: 0 auto;
+  object-position: center;
 }
 
 .profile-details h2 {
@@ -1022,14 +1020,14 @@ h4 {
     border-radius: 24px;
   }
 
-  .profile-photo-frame {
-    width: 174px;
-    height: 174px;
+  .profile-art-frame {
+    width: 100%;
+    max-width: 360px;
+    border-radius: 24px;
   }
 
-  .profile-image {
-    width: 160px;
-    height: 160px;
+  .profile-art-image {
+    border-radius: 19px;
   }
 
   .section {

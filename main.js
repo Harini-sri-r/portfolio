@@ -1,5 +1,6 @@
 const typedPhrases = [
   'Aspiring AI Engineer',
+  'Full Stack Developer',
   'AI & Data Science Student',
   'Machine Learning Learner',
   'Web Project Builder'
